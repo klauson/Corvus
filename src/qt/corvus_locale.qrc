@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/corvus_bg.qm</file>
+        <file alias="de">locale/corvus_de.qm</file>
+        <file alias="en">locale/corvus_en.qm</file>
+        <file alias="es">locale/corvus_es.qm</file>
+        <file alias="fi">locale/corvus_fi.qm</file>
+        <file alias="fr">locale/corvus_fr.qm</file>
+        <file alias="it">locale/corvus_it.qm</file>
+        <file alias="ja">locale/corvus_ja.qm</file>
+        <file alias="pl">locale/corvus_pl.qm</file>
+        <file alias="pt">locale/corvus_pt.qm</file>
+        <file alias="ru">locale/corvus_ru.qm</file>
+        <file alias="sk">locale/corvus_sk.qm</file>
+        <file alias="sv">locale/corvus_sv.qm</file>
+        <file alias="vi">locale/corvus_vi.qm</file>
+        <file alias="zh_CN">locale/corvus_zh_CN.qm</file>
+        <file alias="zh_TW">locale/corvus_zh_TW.qm</file>
+    </qresource>
+</RCC>

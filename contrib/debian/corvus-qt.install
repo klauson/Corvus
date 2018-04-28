@@ -1,0 +1,6 @@
+usr/local/bin/corvus-qt usr/bin
+share/pixmaps/corvus32.xpm usr/share/pixmaps
+share/pixmaps/corvus16.xpm usr/share/pixmaps
+share/pixmaps/corvus128.png usr/share/pixmaps
+debian/corvus-qt.desktop usr/share/applications
+debian/corvus-qt.protocol usr/share/kde4/services/

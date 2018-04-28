@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Corvus
+Comment=Corvus P2P Cryptocurrency
+Comment[fr]=Corvus, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Corvus, eşten eşe kriptografik sanal para birimi
+Exec=corvus-qt %u
+Terminal=false
+Type=Application
+Icon=corvus128
+MimeType=x-scheme-handler/corvus;
+Categories=Office;Finance;

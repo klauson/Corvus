@@ -1,0 +1,22 @@
+[Unit]
+Description=Corvus's distributed currency daemon
+After=network.target
+
+[Service]
+User=corvuscore
+Group=corvuscore
+
+Type=forking
+PIDFile=/var/lib/corvusd/corvusd.pid
+ExecStart=/usr/bin/corvusd -daemon -pid=/var/lib/corvusd/corvusd.pid \
+-conf=/etc/corvuscore/corvus.conf -datadir=/var/lib/corvusd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
